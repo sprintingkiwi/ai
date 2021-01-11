@@ -436,9 +436,9 @@ window.ecraft2learn =
     var warned_about_missing_voice_numbers = [];
     var get_voice_from = function (voice_number, voices) {
         if (voices.length === 0) {
-            inform("No voices",
-                   "This browser has no voices available.\n" + 
-                   "Either try a different browser or try using the MARY TTS instead.");
+            // inform("No voices",
+            //        "This browser has no voices available.\n" + 
+            //        "Either try a different browser or try using the MARY TTS instead.");
             return;
         }
         voice_number = +voice_number; // convert to nunber if is a string
