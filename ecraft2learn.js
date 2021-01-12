@@ -688,9 +688,9 @@ window.ecraft2learn =
     var no_voices_alert = function () {
         if (!ecraft2learn.no_voices_alert_given) {
             ecraft2learn.no_voices_alert_given = true;
-            inform("No voices available",
-                   "This browser has no voices available.\n" + 
-                   "Either try a different browser or try using the MARY TTS instead.");
+            // inform("No voices available",
+            //        "This browser has no voices available.\n" + 
+            //        "Either try a different browser or try using the MARY TTS instead.");
         }
     };
     const read_file = function (file, callback) {
